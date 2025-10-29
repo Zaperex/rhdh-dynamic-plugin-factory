@@ -15,7 +15,7 @@ concurrency:
 
 env:
   REGISTRY: quay.io
-  REGISTRY_IMAGE: rhdh-community/dynamic-plugins-factory
+  REGISTRY_IMAGE: my-test-organization/factory-testing
 jobs:
   build:
     env:
