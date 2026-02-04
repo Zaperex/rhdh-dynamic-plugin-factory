@@ -183,4 +183,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    exit 0
+    exit(0)
