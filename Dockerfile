@@ -9,9 +9,6 @@ LABEL description="RHDH Dynamic Plugin Factory - Build and package Backstage plu
 
 USER 0
 
-# TEMPORARY: Intentional failure to test upstream failure notification
-RUN echo "Testing upstream failure notification" && exit 1
-
 WORKDIR /app
 # Install corepack (not included in UBI images by default)
 RUN npm install -g corepack
