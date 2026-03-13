@@ -37,7 +37,7 @@ class TestTodoSingleWorkspace:
     """Validate a full container run of the TODO single-workspace example."""
 
     def test_container_exits_successfully(self, todo_result: ContainerResult) -> None:
-        assert todo_result.returncode == 0, (
+        assert todo_result.returncode == 999,
             f"Container exited with code {todo_result.returncode}\n"
             f"Full log: {todo_result.log_file}\n"
             f"output:\n{todo_result.output[-3000:]}"
