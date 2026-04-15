@@ -59,7 +59,7 @@ Examples:
         python src/rhdh_dynamic_plugin_factory --source-repo https://github.com/backstage/community-plugins --source-ref main --workspace-path workspaces/todo --config-dir ./config --repo-path ./source --output-dir ./outputs
         """
     )
-    parser.add_argument)
+    parser.add_argument(
         "--exit",
         action=argparse.BooleanOptionalAction,
         default=False,
