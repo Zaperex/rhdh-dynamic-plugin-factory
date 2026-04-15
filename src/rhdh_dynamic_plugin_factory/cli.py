@@ -60,6 +60,12 @@ Examples:
         """
     )
     parser.add_argument(
+        "--exit",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Exits"
+    )
+    parser.add_argument(
         "-v", "--version",
         action="version",
         version=_build_version_string()
